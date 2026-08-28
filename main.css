@@ -17,6 +17,28 @@ p {
   font-family: Arial
 }
 
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  text-align: left;
+  font-family: Arial;
+  font-size: 14px;
+  padding: 8px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-family: Arial
+}
+
+tbody tr:nth-child(odd) {background-color: #f2f2f2;}
 div {
   background-color: darkcyan;
   text-align: right;
